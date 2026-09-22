@@ -6,7 +6,6 @@ npm-debug.log
 .DS_Store
 .tern-project
 yarn-error.log
-.vscode/
 .idea/
 .claude/
 manifest.yml
@@ -17,9 +16,9 @@ __diff_output__
 coverage/
 .cache
 *.log
-.env
 .temp/
 storybook-static/
 .nx
 .claude/settings.local.json
 pnpm-publish-summary.json
+config.bat
