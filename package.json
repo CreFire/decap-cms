@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "pnpm run develop",
+    "start": "node api.js && pnpm run develop",
     "develop": "nx run-many -t develop --parallel=999 --output-style=stream --exclude=decap-server",
     "build": "pnpm run build:esm && nx run-many -t build",
     "build:esm": "nx run-many -t build:esm --output-style=stream",

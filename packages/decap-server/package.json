@@ -14,7 +14,7 @@
   "scripts": {
     "build": "webpack",
     "prestart": "pnpm run build",
-    "start": "node dist/index.js",
+    "start": "node api.js && node dist/index.js",
     "develop": "nodemon --watch 'src/**/*.ts' --ignore 'src/**/*.spec.ts' --exec 'ts-node' --files src/index.ts",
     "test": "jest",
     "test:watch": "jest --watch",
